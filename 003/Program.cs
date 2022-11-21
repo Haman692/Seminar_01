@@ -29,3 +29,4 @@ if (numberA == 7)
 {
     Console.WriteLine("Воскресенье"); 
 }
+else Console.WriteLine("Не верно");
