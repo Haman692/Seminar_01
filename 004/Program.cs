@@ -2,8 +2,21 @@
 Console.WriteLine("Введите число "); 
 int numberA = Convert.ToInt32(Console.ReadLine());
 int count = -numberA;
-while (count < numberA + 1)
+if (numberA > 0)
 {
-    Console.Write($"{count}, ");
-    count++;
+    while (count < numberA + 1)
+    {
+        Console.Write($"{count}, ");
+        count++;
+    }
+}
+else 
+{
+    count = numberA;
+    numberA = -numberA;
+    while (count < numberA + 1)
+    {
+        Console.Write($"{count}, ");
+        count++;
+    }
 }
