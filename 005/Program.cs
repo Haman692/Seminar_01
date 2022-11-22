@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿// Послдение число в трезначном
+Console.Clear();
 Console.WriteLine("Введите трехзначное число "); 
 int numberA = Convert.ToInt32(Console.ReadLine());
 int LastNumber = numberA % 10;

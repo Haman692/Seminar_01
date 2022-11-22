@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿// Число равно дню
+Console.Clear();
 Console.WriteLine("Напишите число от 1 до 7"); 
 int numberA = Convert.ToInt32(Console.ReadLine());
 if (numberA == 1)

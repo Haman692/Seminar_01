@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿// Второе число являеться квадратом первого
+Console.Clear();
 Console.WriteLine("Напишите перове число"); 
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Напишите второе число"); 

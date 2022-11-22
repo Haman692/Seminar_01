@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿// Ввод числа N, и вывод всех чисел от -N....N
+Console.Clear();
 Console.WriteLine("Введите число "); 
 int numberA = Convert.ToInt32(Console.ReadLine());
 int count = -numberA;
